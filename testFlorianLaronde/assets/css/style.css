@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#page {
+    width: 100%;
+    height:70%;
+    margin: 0;
+    position: relative;
+}
+
+/* Div englobant la partie haut gauche du site */
+#divTopLeft {
+    width: 75%;
+    height: 50%;
+    /* border: 2px solid yellow; */
+    display: flex;
+
+}
+
+/* Div moitié gauche */
+#left {
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 100%;
+}
+
+/* Titres */
+#left h2 {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #896a29;
+}
+
+#left h3 {
+    margin-left: 5px;
+    font-size: 16px;
+    color: #23698a;
+}
+
+#left img {
+    margin-left: 5px;
+    width: 40%;
+}
+
+/* Div moitié droite */
+#right {
+    /* border: 2px solid red; */
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+#firstImg {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+#right p {
+    margin-top: 10%;
+    color: #23698a;
+    font-size: 12px;
+}
+
+#rightImg {
+    display: inline-block;
+    width: 100%;
+}
+
+#rightImg img {
+    width: 30%;
+}
+
+/* Div du tableau */
+#divTable {
+    /* border: 2px solid green; */
+    width: 75%;
+    height: 50%;
+}
+
+/* tableau */
+table {
+    width: 100%;
+}
+
+table .tableTable {
+    color: #333333;
+    font-size: 14px;
+}
+
+span {
+    color: #333333;
+    font-size: 12px;
+}
+
+.price {
+    color: #23698a;
+    font-size: 16px;
+
+}
+
+/* Div prennant toute la page droite  */
+#fullRight {
+    /* border: 2px solid purple; */
+    width: 25%;
+    /* display: inline; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#fullRight img {
+    margin-left: 5px;
+    width: 80%;
+}
+
+#fullRight p {
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+#promo {
+    color: white;
+    background-color: #623f19 ;
+    font-size: 20px !important;
+}
+
+#depart {
+    color: #896a29;
+    font-size: 16px;
+    
+}
